@@ -55,13 +55,17 @@ img {
 
 #content {
     position: relative;
-    margin-top: 10em;
+    margin-top: 8em;
     font-size: large;
 }
 
 #favlist {
     font-size:x-large;
     background-color:dodgerblue;
+}
+
+h1 {
+    text-align: center;
 }
 
 h4 {
