@@ -81,6 +81,7 @@
     <Content Include="print.css" />
     <Content Include="styles.css" />
     <Content Include="Web.config" />
+    <Content Include="XML Page.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
