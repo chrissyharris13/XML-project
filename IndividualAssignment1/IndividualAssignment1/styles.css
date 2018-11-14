@@ -1,5 +1,5 @@
 ﻿body {
-    background-color:lightgrey;
+    background-color:lightgray;
 }
 
 #topnav {
@@ -10,31 +10,46 @@
     z-index:100;
     left:0;
     top:0;
-    background-color:lightyellow;
+    background-color:lightsalmon;
 }
 
 #maintitle {
-    font-family:'Times New Roman', Times, serif;
+    margin-left:10px;
+    font-size: 200%;
 }
 
-#subtitle {
+h2 {
+    font: normal bold 1.4em arial, verdana;
+    background-color: darkgray;
 }
 
-#picture {
-    height:30%;
-    width:30%;
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+h3 {
+    background-color:cadetblue;
+}
+
+
+img {
+    border: 2px solid #000000;
+    height:40%;
+    width:40%;
+}
+
 
 #content {
-    position:relative;
-    margin-top:5.5em;
-}
-
-#answer {
+    position: relative;
+    margin-top: 5.5em;
+    font-size: large;
 }
 
 #favlist {
+    font-size:x-large;
+    background-color:dodgerblue;
 }
 
 #smallnote {
+    font-size:small;
 }
