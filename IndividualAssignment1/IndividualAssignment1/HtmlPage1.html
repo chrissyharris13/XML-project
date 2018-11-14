@@ -6,13 +6,18 @@
     <title>Undergrad Study Abroad</title>
 
     <link rel="stylesheet" href="styles.css" type="text/css" />
-
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="mobile.css" type="text/css" media="screen and (max-device-width: 480px)" />
 
 </head>
 <body>
 
-    <div id="topnav">
-        <h1 id="maintitle">Chrissy's Study Abroad Adventures</h1>
+    <div id="topnav" class="noprint">
+        <h1>Chrissy's Study Abroad Adventures</h1>
+        <a href="#About" class="active">About</a>
+        <a href="#Torino">Torino</a>
+        <a href="#Rome">Rome</a>
+        <a href="#Paris">Paris</a>
     </div>
 
     <div id="content">
@@ -93,14 +98,18 @@
             </ol>
         </div>
 
-        <div>
+        <div class="nomobile">
             <h4>I love to travel and can't wait for my next adventure abroad</h4>
-            <p id="smallnote">
+            <p class="smallnote">
                     Note: I also like to travel domestically. I have a trip to New York City coming up, along with a trip to Florida. And
                     I am hoping to get a trip scheduled out to San Francisco during Spring 2019. I have never been to the West Coast (Best Coast).
                     I have a lot of places on my bucket list that I cannot wait to visit!
             </p>
         </div>
+    </div>
+
+    <div class="bottomnavbar">
+        Copyright 2018 - Christina Harris 
     </div>
 
 

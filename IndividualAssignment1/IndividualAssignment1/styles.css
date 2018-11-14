@@ -5,7 +5,7 @@
 #topnav {
     position:fixed;
     vertical-align:top;
-    height:4em;
+    height:8em;
     width:100%;
     z-index:100;
     left:0;
@@ -13,9 +13,23 @@
     background-color:lightsalmon;
 }
 
-#maintitle {
-    margin-left:10px;
+#topnav h1 {
     font-size: 200%;
+    text-align:center;
+    top:0;
+}
+
+#topnav a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 4px 4px;
+    font-size: 150%;
+    }
+
+#topnav a:hover {
+    background-color: #000000;
+    color: white;
 }
 
 h2 {
@@ -41,7 +55,7 @@ img {
 
 #content {
     position: relative;
-    margin-top: 5.5em;
+    margin-top: 10em;
     font-size: large;
 }
 
@@ -50,6 +64,20 @@ img {
     background-color:dodgerblue;
 }
 
-#smallnote {
+h4 {
+    text-align:center;
+}
+
+.smallnote {
     font-size:small;
+    text-align:center;
+}
+
+.bottomnavbar {
+    background-color: black;
+    overflow:hidden;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    color:white;
 }
