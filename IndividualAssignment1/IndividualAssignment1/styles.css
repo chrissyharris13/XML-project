@@ -1,0 +1,40 @@
+﻿body {
+    background-color:lightgrey;
+}
+
+#topnav {
+    position:fixed;
+    vertical-align:top;
+    height:4em;
+    width:100%;
+    z-index:100;
+    left:0;
+    top:0;
+    background-color:lightyellow;
+}
+
+#maintitle {
+    font-family:'Times New Roman', Times, serif;
+}
+
+#subtitle {
+}
+
+#picture {
+    height:30%;
+    width:30%;
+}
+
+#content {
+    position:relative;
+    margin-top:5.5em;
+}
+
+#answer {
+}
+
+#favlist {
+}
+
+#smallnote {
+}
