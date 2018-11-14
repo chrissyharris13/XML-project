@@ -3,14 +3,14 @@
 }
 
 #topnav {
-    position:fixed;
-    vertical-align:top;
-    height:8em;
-    width:100%;
-    z-index:100;
-    left:0;
-    top:0;
-    background-color:lightsalmon;
+    position: fixed;
+    vertical-align: top;
+    height: 7em;
+    width: 100%;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    background-color: lightsalmon;
 }
 
 #topnav h1 {
@@ -55,7 +55,7 @@ img {
 
 #content {
     position: relative;
-    margin-top: 8em;
+    margin-top: 7em;
     font-size: large;
 }
 
@@ -72,12 +72,14 @@ h4 {
     text-align:center;
 }
 
-.smallnote {
+
+#smallnote {
     font-size:small;
     text-align:center;
+    padding-bottom:2em;
 }
 
-.bottomnavbar {
+#bottomnavbar {
     background-color: black;
     overflow:hidden;
     position: fixed;
