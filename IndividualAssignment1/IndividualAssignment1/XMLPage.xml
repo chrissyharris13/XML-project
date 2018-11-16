@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="XMLPage.xsl" ?>
+<XMLPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="XMLPage.xsd">
+
+	<bestgroups>
+		<bestgroup>
+			<member_name>Christina Harris</member_name>
+			<fav_key_stroke>Windows + L</fav_key_stroke>
+		</bestgroup>
+		<bestgroup>
+			<member_name>Molly Zweig</member_name>
+			<fav_key_stroke>Ctrl + T</fav_key_stroke>
+		</bestgroup>
+		<bestgroup>
+			<member_name>Constance Landrum</member_name>
+			<fav_key_stroke>F6</fav_key_stroke>
+		</bestgroup>
+	</bestgroups>
+</XMLPage>

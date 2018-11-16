@@ -3,14 +3,14 @@
 }
 
 #topnav {
-    position: fixed;
-    vertical-align: top;
+    background-color: lightsalmon;
     height: 7em;
+    left: 0;
+    position: fixed;
+    top: 0;
+    vertical-align: top;
     width: 100%;
     z-index: 100;
-    left: 0;
-    top: 0;
-    background-color: lightsalmon;
 }
 
 #topnav h1 {
@@ -20,11 +20,11 @@
 }
 
 #topnav a {
-    float: left;
-    display: block;
     color: white;
-    padding: 4px 4px;
+    display: block;
     font-size: 150%;
+    float: left;
+    padding: 4px 4px;
     }
 
 #topnav a:hover {
@@ -33,8 +33,8 @@
 }
 
 h2 {
-    font: normal bold 1.4em arial, verdana;
     background-color: darkgray;
+    font: normal bold 1.4em arial, verdana;
 }
 
 p {
@@ -54,19 +54,16 @@ img {
 
 
 #content {
-    position: relative;
-    margin-top: 7em;
     font-size: large;
+    margin-top: 7em;
+    position: relative;
 }
 
 #favlist {
-    font-size:x-large;
-    background-color:dodgerblue;
+    background-color: dodgerblue;
+    font-size: x-large;
 }
 
-h1 {
-    text-align: center;
-}
 
 h4 {
     text-align:center;
@@ -74,16 +71,16 @@ h4 {
 
 
 #smallnote {
-    font-size:small;
-    text-align:center;
-    padding-bottom:2em;
+    font-size: small;
+    padding-bottom: 2em;
+    text-align: center;
 }
 
 #bottomnavbar {
     background-color: black;
-    overflow:hidden;
+    bottom: 0;
+    color: white;
+    overflow: hidden;
     position: fixed;
-    bottom:0;
     width: 100%;
-    color:white;
 }

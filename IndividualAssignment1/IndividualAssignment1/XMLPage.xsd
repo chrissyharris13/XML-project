@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="XMLPage">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="best_groups">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="best_groups" minOccurs="1" maxOccurs="unbounded" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="best_group">
+		<xs:sequence>
+			<xs:element name="Member_Name">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="100"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="planted_by">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="25"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<?xml version="1.0" encoding="utf-8"?>
+		<xs:schema id="XMLPage"
+			targetNamespace="http://tempuri.org/XMLPage.xsd"
+			elementFormDefault="qualified"
+			xmlns="http://tempuri.org/XMLPage.xsd"
+			xmlns:mstns="http://tempuri.org/XMLPage.xsd"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+		</xs:schema>
+	

@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="XMLPage.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="HtmlPage1.html" />
     <Content Include="Images\Aosta_ItalianAlps.JPG" />
     <Content Include="Images\CinqueTerre.JPG" />
@@ -81,7 +84,7 @@
     <Content Include="print.css" />
     <Content Include="styles.css" />
     <Content Include="Web.config" />
-    <Content Include="XML Page.html" />
+    <Content Include="XMLPage.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,6 +96,9 @@
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="XMLPage.xsd">
+      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <PropertyGroup>
