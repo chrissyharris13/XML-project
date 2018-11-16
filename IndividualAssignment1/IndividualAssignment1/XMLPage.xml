@@ -2,19 +2,25 @@
 <?xml-stylesheet type="text/xsl" href="XMLPage.xsl" ?>
 <XMLPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="XMLPage.xsd">
-
-	<bestgroups>
-		<bestgroup>
-			<member_name>Christina Harris</member_name>
-			<fav_key_stroke>Windows + L</fav_key_stroke>
-		</bestgroup>
-		<bestgroup>
-			<member_name>Molly Zweig</member_name>
-			<fav_key_stroke>Ctrl + T</fav_key_stroke>
-		</bestgroup>
-		<bestgroup>
-			<member_name>Constance Landrum</member_name>
-			<fav_key_stroke>F6</fav_key_stroke>
-		</bestgroup>
-	</bestgroups>
+	
+	<userdetails>
+		<users>	
+			<first_name>Christina</first_name>
+			<last_name>Harris</last_name>
+			<bearcat_id>harri2c4</bearcat_id>
+			<fav_shortcut>Windows + L</fav_shortcut>
+		</users>
+		<users>
+			<first_name>Molly</first_name>
+			<last_name>Zweig</last_name>
+			<bearcat_id>zweigmy</bearcat_id>
+			<fav_shortcut>Ctrl + T</fav_shortcut>
+		</users>
+		<users>
+			<first_name>Constance</first_name>
+			<last_name>Landrum</last_name>
+			<bearcat_id>landruce</bearcat_id>
+			<fav_shortcut>F6</fav_shortcut>
+		</users>
+	</userdetails>
 </XMLPage>

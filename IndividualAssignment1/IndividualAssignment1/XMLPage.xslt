@@ -11,11 +11,15 @@
 			<body>
 				<table style="width:100%;">
 					<tr>
-						<th>Member Name</th>
-						<th>Fav Key Stroke</th>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>Bearcat ID</th>
+						<th>Fav Shortcut</th>
 					</tr>
-					<xsl:for-each select="/XMLPage/bestgroups/bestgroup">
+					<xsl:for-each select="/XMLPage/userdetails/users">
 						<tr>
+							<td></td>
+							<td></td>
 							<td></td>
 							<td></td>
 						</tr>
