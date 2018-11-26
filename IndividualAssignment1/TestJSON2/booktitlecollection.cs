@@ -7,8 +7,8 @@ namespace TestJSON2
 {
     public class booktitlecollection
     {
-        private List<booktitle> booktitles;
+        private List<booktitle> booktitle;
 
-        public List<booktitle> Booktitles { get => booktitles; set => booktitles = value; }
+        public List<booktitle> Booktitles { get => booktitle; set => booktitle = value; }
     }
 }
