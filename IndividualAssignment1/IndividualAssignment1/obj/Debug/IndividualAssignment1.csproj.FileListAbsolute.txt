@@ -110,3 +110,5 @@ C:\Users\harri2c4\Documents\GitHub\IS7024\IS7024_XML\IndividualAssignment1\Indiv
 C:\Users\harri2c4\Documents\GitHub\IS7024\IS7024_XML\IndividualAssignment1\IndividualAssignment1\obj\Debug\IndividualAssignment1.csproj.CopyComplete
 C:\Users\harri2c4\Documents\GitHub\IS7024\IS7024_XML\IndividualAssignment1\IndividualAssignment1\obj\Debug\IndividualAssignment1.dll
 C:\Users\harri2c4\Documents\GitHub\IS7024\IS7024_XML\IndividualAssignment1\IndividualAssignment1\obj\Debug\IndividualAssignment1.pdb
+C:\Users\harri2c4\Documents\GitHub\IS7024\IS7024_XML\IndividualAssignment1\IndividualAssignment1\bin\Newtonsoft.Json.dll
+C:\Users\harri2c4\Documents\GitHub\IS7024\IS7024_XML\IndividualAssignment1\IndividualAssignment1\bin\Newtonsoft.Json.xml
