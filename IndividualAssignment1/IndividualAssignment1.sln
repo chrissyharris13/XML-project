@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProjectTest", "FinalPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestJSON2", "TestJSON2\TestJSON2.csproj", "{F5259C6F-EA04-46C5-A856-2201EDA100A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChrissyTest", "ChrissyTest\ChrissyTest.csproj", "{A545FFB7-5C33-4C5E-B4ED-8D4A2F15C71E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F5259C6F-EA04-46C5-A856-2201EDA100A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5259C6F-EA04-46C5-A856-2201EDA100A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5259C6F-EA04-46C5-A856-2201EDA100A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A545FFB7-5C33-4C5E-B4ED-8D4A2F15C71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A545FFB7-5C33-4C5E-B4ED-8D4A2F15C71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A545FFB7-5C33-4C5E-B4ED-8D4A2F15C71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A545FFB7-5C33-4C5E-B4ED-8D4A2F15C71E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
